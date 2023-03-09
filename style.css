@@ -175,4 +175,213 @@ body {
 
 .Your .rightSide {
     width: 30%;
+    height: 100vh;
+}
+
+.Your .rightSide .img {
+    width: 100%;
+    height: 100%;
+}
+
+.Reimagine {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background: #D2D9E1;
+    width: 100%;
+    padding: 120px 25px;
+}
+
+.Reimagine .rightSide {
+    width: 100%;
+    padding: 70px;
+}
+
+
+.Reimagine .rightSide .More .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Reimagine .rightSide .More .name {
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+    width: 70%;
+    margin: 10px 0 23px 0;
+}
+
+.Reimagine .rightSide .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.Reimagine .rightSide .stars {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Reimagine .rightSide .stars .list {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.Reimagine .rightSide .stars .list .listItem .logo1 {
+    width: 23px;
+}
+
+.Reimagine .rightSide .stars .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20.5px;
+}
+
+.Reimagine .rightSide .stars .text .link {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.comment {
+    padding: 0px 0px 64px 40px;
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.comment .commentInfo {
+    width: 30%;
+    box-shadow: 5px 5px 9px 11px rgba(252, 231, 231, 0.75);
+    -webkit-box-shadow: 5px 5px 9px 11px rgba(252, 231, 231, 0.75);
+    -moz-box-shadow: 5px 5px 9px 11px rgba(252, 231, 231, 0.75);
+    border-radius: 24px;
+    padding: 34px 72px 33px 32px;
+}
+
+.comment .commentInfo .name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+
+.comment .commentInfo .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.comment .commentInfo .name1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+    margin-bottom: 84px;
+}
+
+.comment .te {
+    margin-top: 59px;
+    text-align: center;
+    width: 100%;
+}
+
+.area {
+    background-image: url('./image/IMAGE\ \(5\).svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 115px;
+    padding-bottom: 120px;
+}
+
+.area .top {
+    text-align: center;
+}
+
+.area .top .name {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 64px;
+}
+
+.area .top .text {
+    margin-top: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 57px;
+}
+
+.area .center {
+    height: 1000px;
+}
+
+.area .botton {
+    padding: 0 40px;
+    text-align: center;
+}
+
+.area .botton .text {
+    margin-bottom: 57px;
+}
+
+
+.area .botton .Save {
+    background-color: black;
+    border-radius: 24px;
+    padding: 55px;
+    color: white;
+}
+
+.area .botton .Save .name {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 64px;
+}
+
+.area .botton .Save .list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 44px;
+}
+
+.area .botton .Save .list .listItem .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.area .botton .Save .list .listItem1 {
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 8px;
+    width: 20%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.area .botton .Save .list .listItem1 .input {
+    background-color: black;
+    border: none;
+    width: 100%;
+    color: white;
+}
+
+.area .botton .Save .list .listItem1 .button {
+    width: 133px;
+    height: 30px;
+    border-radius: 100px;
+    cursor: pointer;
 }
